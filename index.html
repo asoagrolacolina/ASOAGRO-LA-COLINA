@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1e482f">
+  <meta name="description" content="Eco Huevos – La Colina. Productos frescos del campo de ASOAGRO LA COLINA, Elías, Huila. Haz tu pedido por WhatsApp.">
+  <title>Eco Huevos – La Colina | ASOAGRO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="ASOAGRO La Colina, inicio">
+      <span class="brand-mark">🌿</span>
+      <span><strong>ASOAGRO</strong><small>LA COLINA · ELÍAS, HUILA</small></span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="#productos">Productos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="header-order" href="#productos">Hacer pedido <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> DEL CAMPO A TU HOGAR</p>
+        <h1>Frescura y confianza en cada <em>huevo.</em></h1>
+        <p class="hero-text">Conoce Eco Huevos – La Colina, una iniciativa de ASOAGRO LA COLINA que trabaja por el desarrollo agropecuario y el bienestar rural.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#productos">Ver productos <span>↓</span></a>
+          <a class="text-link" href="#nosotros">Conoce nuestra asociación</a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✓</span><span><strong>Compra local</strong><br>Apoyas a una iniciativa agropecuaria de Huila.</span></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Ilustración de huevos frescos y hojas">
+        <div class="sun"></div><div class="leaf leaf-one">❧</div><div class="leaf leaf-two">❧</div>
+        <div class="egg egg-one"></div><div class="egg egg-two"></div><div class="egg egg-three"></div>
+        <div class="egg egg-four"></div><div class="egg egg-five"></div>
+        <div class="egg-caption">ECO HUEVOS <span>LA COLINA</span></div>
+      </div>
+      <div class="hero-bottom"><span>01 — PRODUCCIÓN AGROPECUARIA</span><span>ASOAGRO LA COLINA</span></div>
+    </section>
+
+    <section class="section products-section" id="productos">
+      <div class="section-heading">
+        <div><p class="eyebrow dark"><span></span> NUESTRO CATÁLOGO</p><h2>Elige tus <em>Eco Huevos</em></h2></div>
+        <p>Selecciona la presentación y la cantidad. Al continuar, enviaremos el resumen de tu pedido a WhatsApp.</p>
+      </div>
+      <div class="notice"><span>ℹ</span> Los precios y presentaciones son editables. Confirma los valores reales antes de publicar la página.</div>
+      <div class="product-grid" id="product-grid"></div>
+      <div class="cart-bar">
+        <div><span class="cart-label">Tu pedido</span><strong id="cart-summary">Aún no has agregado productos</strong></div>
+        <button class="button button-green" id="checkout" disabled>Continuar por WhatsApp <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="about-section" id="nosotros">
+      <div class="about-image">
+        <div class="about-stamp">RAÍCES<br><strong>RURALES</strong></div>
+        <div class="about-image-label">ASOAGRO LA COLINA <span>ELÍAS · HUILA</span></div>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow dark"><span></span> QUIÉNES SOMOS</p>
+        <h2>Creemos en el potencial de nuestro <em>campo.</em></h2>
+        <p>ASOAGRO LA COLINA es una asociación agropecuaria que busca impulsar iniciativas productivas, fortalecer la economía rural y generar oportunidades para su comunidad.</p>
+        <div class="values">
+          <div><span>01</span><strong>Trabajo asociativo</strong><small>Crecer y avanzar en comunidad.</small></div>
+          <div><span>02</span><strong>Producción responsable</strong><small>Aprovechar los recursos con criterio.</small></div>
+          <div><span>03</span><strong>Compromiso local</strong><small>Construir oportunidades desde el territorio.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div><p class="eyebrow"><span></span> HABLEMOS</p><h2>¿Listo para hacer tu pedido?</h2><p>Escríbenos por WhatsApp para consultar disponibilidad, entregas y formas de pago.</p></div>
+      <a class="button button-light" id="contact-whatsapp" href="#" target="_blank" rel="noopener">Contactar por WhatsApp <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">🌿</span><span><strong>ASOAGRO</strong><small>LA COLINA</small></span></a>
+    <p>Eco Huevos – La Colina · Elías, Huila, Colombia</p>
+    <span>© <span id="year"></span> ASOAGRO LA COLINA</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
